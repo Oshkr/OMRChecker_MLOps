@@ -3,7 +3,7 @@ import numpy as np
 
 from src.processors.interfaces.ImagePreprocessor import ImagePreprocessor
 
-
+# Image processor levels
 class Levels(ImagePreprocessor):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
